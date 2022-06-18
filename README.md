@@ -16,7 +16,7 @@ Mobile View :
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://aymenfisher.github.io/teacozy)
+- Live Site URL: [Tea Cozy](https://aymenfisher.github.io/teacozy)
 
 ## My process
 
