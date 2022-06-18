@@ -1,0 +1,142 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    color:seashell;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    align-self: center;
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* navigation bar */
+nav{
+    min-height: 69px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img[alt="brand"]{
+    height:50px;
+}
+.brand{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.links{
+    min-height: 50px;
+    display:inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.links a{
+    margin: 10px;
+    color:seashell;
+    text-decoration: underline;
+}
+
+/*jumbotron*/
+.jumbotron{
+    background-image: url(./images/img-mission-background.jpg);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.mission{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+}
+
+.mission h4,.mission h2{
+    margin: 10px 80px;
+}
+
+/*featured teas */
+.featured{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.monthtea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.monthtea h4, .monthtea h2{
+    margin: 10px 80px;
+}
+
+figure img{
+    height:200px;
+    width:300px;
+    margin-bottom: 10px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/*locations */
+.locations{
+    display: flex;
+    background-image: url(./images/img-locations-background.jpg);
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 500px;
+    max-width: 1200px;
+}
+.locations h2{
+    margin-bottom: 15px;
+}
+.locationsboxes{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.locationbox{
+    background-color: black;
+    width:300px;
+    margin:40px;
+    opacity: 1;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+}
+
+footer *{
+    margin: 15px;
+}
+
+#copyright{
+    text-align: left;
+}
